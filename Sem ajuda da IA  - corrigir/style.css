@@ -1,0 +1,41 @@
+body, html, #app{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle, rgba(255,255,255,1)0%, rgba(0,0,0,0.5)200%);
+}
+#app{
+    height: 100%;
+    font-family:'Times New Roman', Times, serif;
+  
+    
+}
+
+/*IA AJUDOU*/
+#webgl-canvas {
+    width: 100%;
+    height: 100%;
+    display: block; /* remove o espaço extra abaixo do canvas */
+}
+
+
+.hero{
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;  /*IA AJUDOU*/
+   
+   
+  
+}
+h1, h2{
+  margin: 0;  
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
