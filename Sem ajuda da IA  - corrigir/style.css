@@ -1,23 +1,28 @@
-body, html, #app{
+body,
+html,
+#title{
     margin: 0;
     width: 100%;
     height: 100%;
     background: radial-gradient(circle, rgba(255,255,255,1)0%, rgba(0,0,0,0.5)200%);
+    color: #ffff;
+    text-transform: uppercase;
 }
-#app{
+#title {
     height: 100%;
-    font-family:'Times New Roman', Times, serif;
-  
-    
+    font-size: 50px;
+    position: relative;
 }
 
 /*IA AJUDOU*/
 #webgl-canvas {
+    position: absolute;
+    top:0;
+    left: 0;
     width: 100%;
     height: 100%;
     display: block; /* remove o espaço extra abaixo do canvas */
 }
-
 
 .hero{
     position: relative;
@@ -27,15 +32,17 @@ body, html, #app{
     align-items: center;
     justify-content: center;
     text-align: center;  /*IA AJUDOU*/
-   
-   
-  
 }
+
 h1, h2{
   margin: 0;  
 }
+
 .buttons{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+footer{
+    
 }
