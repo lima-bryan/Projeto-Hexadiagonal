@@ -1,6 +1,6 @@
 @font-face {
     font-family: minha;
-    src: url(./font/Palestine\ Border.ttf);
+    src: url(/Projeto-Hexadiagonal/assets/font/Palestine\ Border.ttf);
 }
 
 * {
@@ -24,7 +24,7 @@ html,
     position: relative;
 }
 
-/*IA AJUDOU*/
+
 #webgl-canvas {
     position: absolute;
     top: 0;
@@ -49,6 +49,7 @@ h2 {
     margin: 0;
 
 }
+
 /*Rodapé + Botao*/
 .footer {
     position: absolute;
@@ -72,18 +73,18 @@ h2 {
     border-radius: 50%;
     border: none;
     padding: 15px 32px;
-    /* Espaçamento interno */
     margin: 0;
     cursor: pointer;
     background: linear-gradient(45deg, #ffff, #0000, #ffff);
     opacity: 0.2;
+
 }
 
 .footer button:hover {
-    transition: background-color 0.3s ease-in; /*o transform: 0.3s ease-out pode ficar aqui é só colocar uma virgula*/
+    transition: background-color 0.3s ease-in;
+    /*o transform: pode ficar aqui é só colocar uma virgula, mas separei pra ficar melhor visivelmente*/
     transform: 0.3s ease-out;
     background: linear-gradient(45deg, #ffff, #0000, #ffff);
     transform: scale(1.1);
     opacity: 10;
-
 }
